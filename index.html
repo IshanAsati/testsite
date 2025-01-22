@@ -11,16 +11,15 @@
         <h1>Typing Speed Test</h1>
     </header>
     <main>
-        <div id="test-container">
-            <p id="test-text">The quick brown fox jumps over the lazy dog.</p>
-            <textarea id="test-input" placeholder="Start typing here..."></textarea>
-            <div id="results">
-                <p>Time: <span id="time">0</span> seconds</p>
-                <p>Words per minute: <span id="wpm">0</span></p>
+        <div class="test-wrapper">
+            <div id="origin-text">
+                <p>The quick brown fox jumps over the lazy dog.</p>
             </div>
-            <button id="start-button">Start Test</button>
+            <textarea id="test-area" placeholder="Start typing here..."></textarea>
+            <div class="timer">00:00:00</div>
+            <button id="reset">Reset</button>
         </div>
     </main>
-    <script src="js/scripts.js"></script>
+    <script src="js/typingSpeedTest.js"></script>
 </body>
 </html>
